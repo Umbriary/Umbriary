@@ -1,0 +1,78 @@
+index.html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scopri l'Umbria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuti in Umbria</h1>
+    </header>
+    <nav>
+        <a href="#territorio">Territorio</a>
+        <a href="#borghi">Borghi</a>
+        <a href="#prodotti">Prodotti Tipici</a>
+        <a href="#storia">Storia</a>
+    </nav>
+    <main>
+        <section id="territorio">
+            <h2>Il Territorio</h2>
+            <p>L'Umbria è una regione ricca di verde, con colline ondulate, fiumi e laghi. La sua morfologia attuale è il risultato di millenni di evoluzioni geologiche e climatiche.</p>
+        </section>
+        <section id="borghi">
+            <h2>I Borghi</h2>
+            <p>Piccoli centri storici che conservano ancora oggi l'antico fascino medievale, come Assisi, Spoleto, e Orvieto.</p>
+        </section>
+        <section id="prodotti">
+            <h2>Prodotti Tipici</h2>
+            <p>Vini, oli d'oliva, tartufi, e altre prelibatezze che rendono l'Umbria una regione rinomata per la sua cucina.</p>
+        </section>
+        <section id="storia">
+            <h2>Storia e Cultura</h2>
+            <p>Da San Francesco d'Assisi alla ricca tradizione artistica e culturale, l'Umbria è una terra intrisa di storia e spiritualità.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scopri l'Umbria. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
